@@ -1,0 +1,103 @@
+/* style.css */
+
+/* General page setup */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f8ff;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+/* Headings */
+h1, h2 {
+  color: #0066cc; /* primary blue */
+  margin-bottom: 20px;
+}
+
+/* Shared form container */
+form, .login-container {
+  background-color: #fff;
+  padding: 25px 30px;
+  border: 1px solid #cce0ff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 102, 204, 0.1);
+  width: 320px;
+  text-align: left;
+}
+
+/* Labels */
+label, label.login.form {
+  display: block;
+  font-weight: bold;
+  color: #004d99;
+  margin-top: 10px;
+}
+
+/* Inputs */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="number"],
+input[type="password"] {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #99c2ff;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+/* Buttons */
+button,
+button.login.form {
+  width: 100%;
+  background-color: #0066cc;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 15px;
+}
+
+button:hover,
+button.login.form:hover {
+  background-color: #0052a3;
+}
+
+/* Paragraph and links */
+p {
+  margin-top: 15px;
+  font-size: 14px;
+  text-align: center;
+}
+
+a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Login form wrapper */
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+/* Responsive layout */
+@media (max-width: 480px) {
+  form, .login-container {
+    width: 90%;
+  }
+}
