@@ -1,0 +1,7 @@
+NGO donation system is a system where users are able to register/login to donate to various charity organisations.The system will hold applications that handle a number of tasks such as: 
+1. A registration page where users filling in their personal details and will have a profile verification to confirm their identity to setup their new accounts.
+2. A login page for existing users.
+3. A home page holding the links to other pages as well showing a brief description of the website.
+4. A donation page `that will allows the users to send their donations to the organisation, the page will manage the records, donor information and payment tracking.
+5. A event page to hold dates of events and volunteer assignments as well as showing the deadlines to donation events.
+6. A repot page to show the progress reports .
