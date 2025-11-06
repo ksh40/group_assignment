@@ -2,15 +2,41 @@
 <html>
 <head>
     <title>Hopelink Donations | Home</title>
+    <style>
+        button {
+            width: 100%;
+            padding: 10px;
+            background: #3cd05a;
+            color: rgb(255, 255, 255);
+            border: none;
+            border-radius: 5px;
+            font-size: 1rem;
+            cursor: pointer;
+        }
+        button:hover {
+            background: #1cb33a;
+        }
+        a {
+            color: #f6f6f6;
+            text-decoration: none;
+            font-size: 1.5rem;
+        }
+    </style>
 </head>
 <body>
-    <h1>Welcome to Hopelink Donations</h1>
+    
+    <h1 style="text-align: center; letter-spacing: 0.2cm; font-weight: bold; color: rgb(114, 186, 5);">WELCOME TO HOPELINK DONATIONS</h1>
     <p>Your platform for giving hope through financial donations.</p>
 
     <section>
-        <h3>Make a Donation</h3>
-        <p>Support a cause by contributing funds directly to Hopelink. 100% of your donation goes toward helping those in need.</p>
-        <button>Donate Now</button>
+        <h2 style= "text-align: center;">Make a Donation</h2>
+        <p>Support a cause by contributing funds directly to Hopelink. 100% of your donation goes toward helping those in need.
+            This NGO Donation Platform enables individuals to contribute easily to charitable causes.
+            It simplifies the donation process, promotes transparency, and helps make a positive difference in communities through collective giving.
+        </p>
+        <p style="text-align: center;font-weight: bold;">WANT TO DONATE? CLICK THE DONATE BUTTON BELOW</p>
+        
+        <button><a href="{% url 'donations' %}" class="btn btn-primary">DONATE</a></button>
     </section>
 </body>
 </html>

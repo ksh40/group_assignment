@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Hopelink Donations | Login</title>
-    <style>
+    <title>Hopelink Donations | Donations</title>
+        <style>
         body {
             font-family: Arial, sans-serif;
             background: #f8f9fa;
@@ -36,19 +36,16 @@
         button:hover {
             background: #237032;
         }
-        a {
-            color: #2b8a3e;
-            text-decoration: none;
-        }
+        
     </style>
 </head>
 <body>
-    <h2>Login to Hopelink Donations</h2>
+    <h2>Donations form</h2>
     <form method="POST">
         {% csrf_token %}
         {{ form.as_p }}
-        <button type="submit">Login</button>
+        <button type="submit">Donate</button>
     </form>
-    <p>Don't have an account? <a href="{% url 'register' %}">Register</a></p>
+    
 </body>
 </html>
